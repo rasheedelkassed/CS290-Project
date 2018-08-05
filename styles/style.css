@@ -1,0 +1,146 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ccc;
+}
+.header {
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+}
+.header-text {
+  margin: 0;
+  padding: 0;
+}
+.header-right {
+  padding-right: 20px;
+  float: right;
+}
+
+.header-left {
+  padding-left: 20px;
+  float: left;
+}
+.nav-header {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  padding-bottom: 65px;
+}
+.nav-bar {
+  list-style-type: none;
+  background: black;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+}
+.nav-button {
+  wdith: auto;
+  display: inline;
+  height: 100%;
+}
+.nav-button-left {
+  padding-left: 10px;
+  float: left;
+}
+.nav-button-right {
+  padding-right: 10px;
+  float: right;
+}
+.nav-link {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  transition: 0.2s;
+  font-size: 35px;
+}
+.nav-link:hover {
+  background: #003366;
+  transition: 0.2s;
+}
+.carousel-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.content-boxes {
+  width: 90%;
+  margin: auto;
+}
+.content-box {
+  width: 30%
+}
+.content-box-left {
+  width: 33.333%;
+  float: left;
+}
+.content-box-right {
+  width: 33.333%;
+  float: right;
+}
+.content-box-middle {
+  width: 33.333%;
+  float: right;
+}
+.content-image {
+  padding-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.content-text {
+  padding: 0 30px 0 30px;
+  font-size: 20px;
+}
+.faq-header {
+  padding: 0;
+  margin: 0;
+  padding-left:20px;
+  text-align: center;
+  margin: auto;
+}
+.faq-lists {
+  padding-top: 10px;
+  font-size: 20px;
+}
+.faq-list {
+  width: 50%;
+  margin: auto;
+}
+.scroll-box-header {
+  margin: auto;
+  text-align: center;
+}
+.scroll-box {
+  width: 50%;
+  height: 200px;
+  border: 1px solid black;
+  font-size: 20px;
+  margin: auto;
+  overflow: auto;
+}
+.info {
+  width: 50%;
+  border: 1px solid black;
+  font-size: 25px;
+  margin: auto;
+}
+.info-header {
+  text-align: center;
+}
+.info-text {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.info-img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
